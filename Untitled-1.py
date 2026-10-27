@@ -1,18 +1,11 @@
-# ================================
-# BIRTHDAY LIST
-# ================================
+#input word
 
-# ---------- PART 1: five variables ----------
-# YOUR CODE HERE
-# Make five variables, one for each friend.
-# Each one stores that friend's birthday, like "12 March".
+text = str(input("enter a string: "))
 
-# ---------- PART 2: print the birthdays ----------
-print("BIRTHDAY LIST")
-# YOUR CODE HERE
-# Print each birthday with the friend's name before it.
+# reverse string
+# using step value as -1 to lterate in reverse
+revtext = text[::-1]
+text =revtext
 
-# ---------- PART 3: one more friend ----------
-# YOUR CODE HERE
-# Ask for a friend's name and their birthday with input().
-# Save each answer in a variable, then print them.
+print(" reversed of given string:")
+print(text)
